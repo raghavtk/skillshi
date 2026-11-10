@@ -60,7 +60,7 @@ The repo and installed copies are separate. Editing a skill here doesn't update 
 
 Much of what I like about these skills came from:
 
-- **Lauren Tan (poteto)** and [pstack](https://github.com/cursor/plugins/tree/main/pstack): architect, blast-radius, how, why, teach, prose-writing, unslop, and the three principle skills. Prose-writing draws on pstack's technical-writing and unslop skills.
+- **Lauren Tan (poteto)** and [pstack](https://github.com/cursor/plugins/tree/main/pstack): architect, blast-radius, how, why, teach, prose-writing, unslop, and the three principle skills. Prose-writing draws on pstack's technical-writing and unslop skills. The design and ownership guidance in improve-codebase-architecture also draws on pstack's architect and foundational thinking skills.
 - **Matt Pocock** and his [skills collection](https://github.com/mattpocock/skills): code-review and improve-codebase-architecture. I also looked at his teach skill; the version here keeps the narrower focus on explaining code rather than creating a learning workspace.
 - **Kun Chen** and [no-mistakes](https://github.com/kunchenguid/no-mistakes): testing-conventions, adapted from that project's testing guidance.
 

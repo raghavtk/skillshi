@@ -2,7 +2,7 @@
 
 This collection contains personal adaptations of the projects below. Each skill links its specific sources and includes the applicable upstream MIT notice in its own `LICENSE` file, so the notice stays with the skill when it is copied or installed separately. The upstream license texts were rechecked on November 4, 2026.
 
-- Lauren Tan, pstack: [MIT license](https://github.com/cursor/plugins/blob/main/pstack/LICENSE). Applies to architect, blast-radius, how, why, teach, prose-writing, unslop, principle-foundational-thinking, principle-explain-the-number, and principle-test-behavior-not-implementation.
+- Lauren Tan (poteto), pstack: [MIT license](https://github.com/cursor/plugins/blob/main/pstack/LICENSE). Applies to architect, blast-radius, how, why, teach, prose-writing, unslop, principle-foundational-thinking, principle-explain-the-number, principle-test-behavior-not-implementation, and the design and ownership guidance in improve-codebase-architecture.
 - Matt Pocock, skills: [MIT license](https://github.com/mattpocock/skills/blob/main/LICENSE). Applies to code-review and improve-codebase-architecture.
 - Kun Chen, no-mistakes: [MIT license](https://github.com/kunchenguid/no-mistakes/blob/main/LICENSE). Applies to testing-conventions.
 
