@@ -13,6 +13,7 @@ Most of these started with someone else's work. I've adapted them to fit how I l
 - [how](skills/how/SKILL.md) follows the code to explain what happens, who owns the state, and where a change belongs.
 - [why](skills/why/SKILL.md) looks through history and supporting records to explain a design decision, keeping evidence separate from inference.
 - [teach](skills/teach/SKILL.md) brings the mechanics and rationale together in a plain explanation.
+- [tutor](skills/tutor/SKILL.md) builds deeper understanding through guided questions, practical exercises, review, and assessment. It also works for topics beyond code.
 
 ### Designing and reviewing changes
 
@@ -50,6 +51,7 @@ Invocation syntax belongs to the tool: Claude Code and Cursor use `/skill-name`,
 ```text
 /how Explain how this request reaches the database.
 /blast-radius Check what this change could break downstream.
+/tutor Help me understand this subsystem well enough to debug it independently.
 
 Use $prose-writing to clean up this README.  (Codex)
 ```
@@ -63,6 +65,7 @@ Much of what I like about these skills came from:
 - **Lauren Tan (poteto)** and [pstack](https://github.com/cursor/plugins/tree/main/pstack): architect, blast-radius, how, why, teach, prose-writing, unslop, and the three principle skills. Prose-writing draws on pstack's technical-writing and unslop skills. The design and ownership guidance in improve-codebase-architecture also draws on pstack's architect and foundational thinking skills.
 - **Matt Pocock** and his [skills collection](https://github.com/mattpocock/skills): code-review and improve-codebase-architecture. I also looked at his teach skill; the version here keeps the narrower focus on explaining code rather than creating a learning workspace.
 - **Kun Chen** and [no-mistakes](https://github.com/kunchenguid/no-mistakes): testing-conventions, adapted from that project's testing guidance.
+- **Jane Street** and [socratic-tutor](https://github.com/janestreet/agent_skills/tree/master/socratic-tutor): tutor, combining its interactive learning workflow with code-grounded explanation practices from Lauren Tan's pstack teach skill.
 
 These are personal adaptations. Some instructions are shorter, optional dependencies have fallbacks, and workflows that relied on a particular tool's models or orchestration have been rewritten to work with the agent's available tools.
 
