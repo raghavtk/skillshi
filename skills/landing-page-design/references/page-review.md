@@ -1,0 +1,9 @@
+# Page critique and polish
+
+Adapted for landing pages and portfolios from Impeccable's [critique](https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/reference/critique.md), [audit](https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/reference/audit.md), and [polish](https://github.com/pbakaus/impeccable/blob/main/.agents/skills/impeccable/reference/polish.md) guides. See [LICENSE](../LICENSE).
+
+- **Critique the experience.** Walk the visitor's path from the opening to the primary action or selected work. Check whether the hierarchy directs attention to the right thing, whether each section gives the visitor a reason to keep going, and whether the visual treatment fits the subject. If repeated cards, gradient text, or decorative labels compete with the evidence, identify what could carry the section instead.
+- **Audit the implementation.** Check the changed path for keyboard access, visible and unobscured focus, contrast, readable wrapping at intermediate widths and zoom, supported themes, and relevant form states. Check image loading and layout shift when media leads the page. Use existing project checks when available and confirm that their findings affect the actual page.
+- **Polish the current direction.** Address blocked actions and accessibility first, then unclear hierarchy and inconsistent styles. Fix a local defect in place. Use an existing token or shared component when the project already owns the pattern. Match the intervention to the request: clarify a vague action, simplify a crowded section, strengthen a weak focal point, or reduce decoration around the work.
+
+On a review-only request, rank findings by their effect on visitors and cite the affected section or control. On an edit, group related fixes and revisit the affected viewports and interaction states after applying them.

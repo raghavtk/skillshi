@@ -17,6 +17,9 @@ Most of these started with someone else's work. I've adapted them to fit how I l
 
 ### Designing and reviewing changes
 
+- [frontend-design](skills/frontend-design/SKILL.md) builds distinctive interfaces with a focused Quickdraw tier and a deeper Art Director tier, including interaction and motion guidance.
+- [landing-page-design](skills/landing-page-design/SKILL.md) plans, builds, and critiques marketing pages and portfolios around what visitors need to see and do.
+- [ui-ux-helpers](skills/ui-ux-helpers/SKILL.md) helps choose and review patterns for forms, navigation, accessibility, responsive layouts, and data displays.
 - [architect](skills/architect/SKILL.md) works through callers, interfaces, ownership, and migration before a substantial change.
 - [improve-codebase-architecture](skills/improve-codebase-architecture/SKILL.md) finds places where a refactor could make the code easier to understand, change, or test.
 - [code-review](skills/code-review/SKILL.md) checks a change against its requirements and the repository's standards.
@@ -62,6 +65,10 @@ The repo and installed copies are separate. Editing a skill here doesn't update 
 
 Much of what I like about these skills came from:
 
+- **Anthropic** and **Emil Kowalski** contributed the visual and interaction design guidance adapted in frontend-design. [Anthropic's skill](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md) · [Emil's skill](https://github.com/emilkowalski/skills/blob/main/skills/emil-design-eng/SKILL.md)
+- **Leonxlnx**, **Paul Bakaus**, **Adam Wathan**, and **Steve Schoger** informed landing-page-design. [Design Taste](https://github.com/Leonxlnx/taste-skill) · [Impeccable](https://github.com/pbakaus/impeccable) · [Refactoring UI](https://refactoringui.com/)
+- **Next Level Builder** provided the prioritized UX guidance adapted in ui-ux-helpers. [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
 - **Lauren Tan (poteto)** and [pstack](https://github.com/cursor/plugins/tree/main/pstack): architect, blast-radius, how, why, teach, prose-writing, unslop, and the three principle skills. Prose-writing draws on pstack's technical-writing and unslop skills. The design and ownership guidance in improve-codebase-architecture also draws on pstack's architect and foundational thinking skills.
 - **Matt Pocock** and his [skills collection](https://github.com/mattpocock/skills): code-review and improve-codebase-architecture. I also looked at his teach skill; the version here keeps the narrower focus on explaining code rather than creating a learning workspace.
 - **Kun Chen** and [no-mistakes](https://github.com/kunchenguid/no-mistakes): testing-conventions, adapted from that project's testing guidance.
@@ -69,7 +76,7 @@ Much of what I like about these skills came from:
 
 These are personal adaptations. Some instructions are shorter, optional dependencies have fallbacks, and workflows that relied on a particular tool's models or orchestration have been rewritten to work with the agent's available tools.
 
-Each skill links its specific sources and includes the relevant upstream MIT notice. [Third-party notices](THIRD_PARTY_NOTICES.md) lists which notice applies to which skills.
+Each skill links its specific sources and includes the relevant upstream license notices. [Third-party notices](THIRD_PARTY_NOTICES.md) lists which notices apply to which skills.
 
 ## Keeping the collection useful
 
